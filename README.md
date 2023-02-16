@@ -495,3 +495,24 @@ At the end of this session, you will be able to:
 2. Adding a Resource to your Application
    
    The application template uses AWS Serverless Application Model (AWS SAM) to define application resources. AWS SAM is an extension of AWS CloudFormation with a simpler syntax for configuring common serverless application resources such as functions, triggers, and APIs. For resources not included in [the SAM specification](https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md), you can use standard [AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html) resource types.
+
+
+## Interview Readiness.
+
+1. What are 3 advantages of deploying using Model Serving methods Vs. deploying on GitHub Pages or HuggingFace for free?
+
+- Scalability.
+- Customizability.
+- Integration.
+
+2. What is ML model deployment?
+
+- Machine learning (ML) model deployment refers to the process of making an ML model available for use in a production environment.
+
+3. What is Causal Inference and How Does It Work?
+
+- Causal inference is a subfield of statistics and data analysis that focuses on identifying and understanding causal relationships between variables. It involves determining whether a particular intervention or treatment has a causal effect on an outcome.
+
+4. What is serverless deployment and how its compared with deployment on server?
+
+- Serverless deployment is a cloud computing model in which an application is deployed and executed on a cloud provider's infrastructure without the need for the user to manage or provision servers.

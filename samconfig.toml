@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "mle-10-tesla-bot"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1npag9w7j63f3"
+s3_prefix = "mle-10-tesla-bot"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["SentimentFunction=116839543142.dkr.ecr.us-east-1.amazonaws.com/mle10teslabot5816c901/sentimentfunction35d37012repo"]

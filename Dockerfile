@@ -5,7 +5,8 @@ RUN yum install gcc -y
 
 COPY requirements.txt  .
 
-RUN  pip3 install -r requirements.txt --target "${LAMBDA_TASK_ROOT}"
+RUN python -m pip install --upgrade pip
+RUN pip3 install -r requirements.txt --target "${LAMBDA_TASK_ROOT}"
 
 COPY ./get_model.py ${LAMBDA_TASK_ROOT}
 
